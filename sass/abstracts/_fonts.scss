@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@700&display=swap');
 
 $manrope: 'Manrope', sans-serif;
 
@@ -7,42 +7,12 @@ body {
   font-size: 28px;
 }
 
-// .title {
-//   font-size: 0.95rem;
-// }
+.title {
+  font-size: 0.70rem;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+}
 
-// .name {
-//   font-size: 1.5rem;
-//   font-weight: 300;
-// }
-
-// .time-frame {
-//   a {
-//     font-size: 1.10rem;
-//   }
-// }
-
-// .activity {
-//   font-size: 1.125rem;
-//   font-weight: 400;
-// }
-
-// .cur-hours {
-//   font-size: 1.9rem;
-//   font-weight: 300;
-// }
-
-// .prev-hours {
-//   font-size: 1rem;
-//   font-weight: 400;
-// }
-
-// @media (min-width: 870px) {
-//   .name {
-//     font-size: 2.5rem;
-//   }
-
-//   .cur-hours {
-//     font-size: 3.5rem;
-//   }
-// }
+.advice {
+  font-size: 1.5rem;
+}

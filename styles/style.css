@@ -1,7 +1,19 @@
-@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@700&display=swap");
 body {
   font-family: "Manrope", sans-serif;
   font-size: 28px;
+}
+
+.title {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+}
+
+.advice {
+  font-size: 1.5rem;
 }
 
 * {
@@ -11,7 +23,84 @@ body {
 }
 
 body {
-  background-color: black;
+  font-family: "Manrope", sans-serif;
+  font-size: 28px;
+}
+
+.title {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+}
+
+.advice {
+  font-size: 1.5rem;
+}
+
+body {
+  min-width: 340px;
+  background-color: hsl(218deg, 23%, 16%);
+}
+
+body {
+  font-family: "Manrope", sans-serif;
+  font-size: 28px;
+}
+
+.title {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+}
+
+.advice {
+  font-size: 1.5rem;
+}
+
+.card {
+  margin: 7.5rem 1rem 0 1rem;
+  background-color: hsl(217deg, 19%, 24%);
+  border-radius: 0.7rem;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.card-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 2.5rem 1.5rem;
+}
+
+.title {
+  padding-bottom: 1.5rem;
+  color: hsl(150deg, 100%, 66%);
+}
+
+.advice {
+  padding-bottom: 1.5rem;
+  color: hsl(193deg, 38%, 86%);
+}
+
+.divider {
+  padding-bottom: 1.5rem;
+}
+
+.advice-btn {
+  position: absolute;
+  width: 4rem;
+  height: 4rem;
+  border-radius: 100%;
+  background-color: hsl(150deg, 100%, 66%);
+  border-style: none;
+  margin-bottom: -2rem;
+}
+
+.advice-btn:hover {
+  box-shadow: 0 0 40px 5px hsl(150deg, 100%, 66%);
 }
 
 /*# sourceMappingURL=style.css.map */

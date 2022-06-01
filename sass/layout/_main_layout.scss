@@ -1,6 +1,10 @@
-// body {
-//   min-width: 280px;
-// }
+// Abstracts
+@use "./../abstracts/__abstracts-dir" as ab;
+
+body {
+  min-width: 340px;
+  background-color: ab.$dark-blue;
+}
 
 // .container {
 //   margin: 5.0625rem 1.5rem;

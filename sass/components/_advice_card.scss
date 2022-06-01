@@ -1,0 +1,70 @@
+// Abstracts
+@use "./../abstracts/__abstracts-dir" as ab;
+
+.card {
+  margin: 7.5rem 1rem 0 1rem;
+  background-color: ab.$dark-grayish-blue;
+  border-radius: 0.7rem;
+  display:flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.card-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 2.5rem 1.5rem;
+}
+
+.title {
+  padding-bottom: 1.5rem;
+  color: ab.$neon-green;
+}
+
+.advice {
+  padding-bottom: 1.5rem;
+  color: ab.$light-cyan;
+}
+
+.divider {
+  padding-bottom: 1.5rem;
+}
+
+.advice-btn {
+  position: absolute;
+  width: 4rem;
+  height: 4rem;
+  border-radius: 100%;
+  background-color: ab.$neon-green;
+  border-style: none;
+  margin-bottom: -2rem; 
+
+  &:hover {
+    box-shadow: 0 0 40px 5px ab.$neon-green;
+  }
+}
+// @media (min-width: 870px) {
+//   .box-size {
+//     width: 255px;
+//     height: 199px;
+//     border-radius: 1rem;
+//   }
+
+//   .accent-box {
+//     margin-bottom: -9.625rem;
+//   }
+
+//   .hours-container {
+//     flex-direction: column;
+//     justify-content: space-around;
+//     align-items: flex-start;
+//     padding: 1.25rem 1.5rem;
+//   }
+
+//   .cur-hours {
+//     padding: 0 0 0.6rem 0;
+//   }
+// }
