@@ -2,7 +2,6 @@
 @use "./../abstracts/__abstracts-dir" as ab;
 
 .card {
-  margin: 7.5rem 1rem 0 1rem;
   background-color: ab.$dark-grayish-blue;
   border-radius: 0.7rem;
   display:flex;
@@ -30,7 +29,11 @@
 }
 
 .divider {
-  padding-bottom: 1.5rem;
+  background-image: url("../../images/pattern-divider-mobile.svg");
+  background-repeat: no-repeat;
+  background-position: center top;
+  width: 100%;
+  padding-bottom: 2.5rem;
 }
 
 .advice-btn {
@@ -43,28 +46,24 @@
   margin-bottom: -2rem; 
 
   &:hover {
-    box-shadow: 0 0 40px 5px ab.$neon-green;
+    box-shadow: 0 0 30px 3px ab.$neon-green;
   }
 }
-// @media (min-width: 870px) {
-//   .box-size {
-//     width: 255px;
-//     height: 199px;
-//     border-radius: 1rem;
-//   }
 
-//   .accent-box {
-//     margin-bottom: -9.625rem;
-//   }
+@media (min-width: 600px){  
+  .card-container {
+    padding: 3rem 3rem;
+  }
 
-//   .hours-container {
-//     flex-direction: column;
-//     justify-content: space-around;
-//     align-items: flex-start;
-//     padding: 1.25rem 1.5rem;
-//   }
+  .title {
+    padding-bottom: 1.7rem;
+  }
+  
+  .advice {
+    padding-bottom: 2.4rem;
+  }
 
-//   .cur-hours {
-//     padding: 0 0 0.6rem 0;
-//   }
-// }
+  .divider {
+    background-image: url("../../images/pattern-divider-desktop.svg");
+  }
+}

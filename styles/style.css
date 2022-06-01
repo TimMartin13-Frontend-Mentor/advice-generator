@@ -16,6 +16,15 @@ body {
   font-size: 1.5rem;
 }
 
+@media (min-width: 600px) {
+  .title {
+    font-size: 0.8rem;
+  }
+
+  .advice {
+    font-size: 1.7rem;
+  }
+}
 * {
   box-sizing: border-box;
   margin: 0;
@@ -37,11 +46,30 @@ body {
   font-size: 1.5rem;
 }
 
+@media (min-width: 600px) {
+  .title {
+    font-size: 0.8rem;
+  }
+
+  .advice {
+    font-size: 1.7rem;
+  }
+}
 body {
   min-width: 340px;
   background-color: hsl(218deg, 23%, 16%);
 }
 
+.card {
+  margin: 7.5rem 1rem 0 1rem;
+}
+
+@media (min-width: 600px) {
+  .card {
+    margin: 13.94rem auto 0 auto;
+    max-width: 33.75rem;
+  }
+}
 body {
   font-family: "Manrope", sans-serif;
   font-size: 28px;
@@ -57,8 +85,16 @@ body {
   font-size: 1.5rem;
 }
 
+@media (min-width: 600px) {
+  .title {
+    font-size: 0.8rem;
+  }
+
+  .advice {
+    font-size: 1.7rem;
+  }
+}
 .card {
-  margin: 7.5rem 1rem 0 1rem;
   background-color: hsl(217deg, 19%, 24%);
   border-radius: 0.7rem;
   display: flex;
@@ -86,7 +122,11 @@ body {
 }
 
 .divider {
-  padding-bottom: 1.5rem;
+  background-image: url("../../images/pattern-divider-mobile.svg");
+  background-repeat: no-repeat;
+  background-position: center top;
+  width: 100%;
+  padding-bottom: 2.5rem;
 }
 
 .advice-btn {
@@ -100,7 +140,25 @@ body {
 }
 
 .advice-btn:hover {
-  box-shadow: 0 0 40px 5px hsl(150deg, 100%, 66%);
+  box-shadow: 0 0 30px 3px hsl(150deg, 100%, 66%);
+}
+
+@media (min-width: 600px) {
+  .card-container {
+    padding: 3rem 3rem;
+  }
+
+  .title {
+    padding-bottom: 1.7rem;
+  }
+
+  .advice {
+    padding-bottom: 2.4rem;
+  }
+
+  .divider {
+    background-image: url("../../images/pattern-divider-desktop.svg");
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -8,11 +8,21 @@ body {
 }
 
 .title {
-  font-size: 0.70rem;
+  font-size: 0.7rem;
   text-transform: uppercase;
   letter-spacing: 0.2rem;
 }
 
 .advice {
   font-size: 1.5rem;
+}
+
+@media (min-width: 600px){  
+  .title {
+    font-size: 0.8rem;
+  }
+
+  .advice {
+    font-size: 1.7rem;
+  }
 }
